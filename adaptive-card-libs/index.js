@@ -3,6 +3,7 @@ import * as AdaptiveCards from "adaptivecards";
 import * as markdownit from "markdown-it";
 import * as ACDesigner from "adaptivecards-designer";
 
+// Setting Monaco enviroment
 self.MonacoEnvironment = {
 	getWorkerUrl: function (moduleId, label) {
 		if (label === 'json') {
